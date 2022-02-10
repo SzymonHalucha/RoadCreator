@@ -1,0 +1,31 @@
+{
+    "name": "com.sh.roadcreator",
+    "version": "0.1.0",
+    "displayName": "Road Creator",
+    "description": "This is a simple tool for the Unity editor, allowing you to create the appearance of a road and the path that the created road will follow.",
+    "type": "tool",
+    "unity": "2021.2",
+    "documentationUrl": "https://github.com/SzymonHalucha/RoadCreator/blob/main/README.md",
+    "changelogUrl": "https://github.com/SzymonHalucha/RoadCreator/blob/main/CHANGELOG.md",
+    "licensesUrl": "https://github.com/SzymonHalucha/RoadCreator/blob/main/LICENSE.md",
+    "dependencies": {
+      "com.unity.shadergraph": "12.0.0"
+    },
+    "keywords": [
+      "low-poly",
+      "road",
+      "procedural"
+    ],
+    "samples": [
+      {
+        "displayName": "Sample Projects",
+        "description": "Contains sample segment and road projects.",
+        "path": "Samples~/SampleProjects"
+      }
+    ],
+    "author": {
+      "name": "Szymon Ha\u0142ucha",
+      "url": "https://SzymonHalucha.github.io"
+    }
+  }
+  

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    --color-border: #242424;
+    --color-border-light: #303030;
+    --color-header: #3c3c3c;
+    --color-hover: #454545;
+
+    --size-xxs: 2px;
+    --size-xs: 4px;
+    --size-s: 8px;
+    --size-m: 16px;
+    --size-l: 24px;
+    --size-xl: 32px;
+    --size-xxl: 48px;
+    --size-xxxl: 64px;
+}
+
+.container {
+    min-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+.section {
+    -unity-text-align: middle-left;
+}
+
+.section-title {
+    font-size: var(--size-m);
+    background-color: var(--color-header);
+    -unity-text-align: middle-center;
+    border-top-width: 1px;
+    border-top-color: var(--color-border);
+    border-bottom-width: 1px;
+    border-bottom-color: var(--color-border-light);
+    padding: var(--size-xs);
+}
+
+#section-settings .section-title {
+    border-top-width: 0;
+    border-top-color: transparent;
+}
+
+.section-foldout {
+    padding: var(--size-xs) 0;
+}
+
+.section-foldout:hover {
+    background-color: var(--color-hover);
+}
+
+.section-foldout > .unity-foldout__toggle > VisualElement > #unity-checkmark {
+    margin: var(--size-xxs);
+}
+
+.section-foldout-item {
+    margin: 0 var(--size-l);
+    padding: var(--size-xxs) 0;
+}
+
+#section-settings Button {
+    margin: var(--size-xxs) var(--size-l);
+    padding: 1px 0;
+}
+
+.section-buttons-container {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-button {
+    flex-grow: 1;
+    margin: var(--size-xs);
+    padding: 1px 0;
+}
+
+#unity-x-input {
+    min-width: 49%;
+}
+
+#unity-y-input {
+    min-width: 51%;
+    margin-left: 2%;
+}
+
+.unity-base-popup-field__text,
+#unity-text-input {
+    padding: var(--size-xxs) var(--size-xs);
+}
+
+.active {
+    background-color: var(--color-hover);
+}
+
+.hide {
+    display: none;
+}

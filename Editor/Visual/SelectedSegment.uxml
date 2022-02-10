@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<en:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:en="UnityEngine.UIElements"
+    xmlns:ed="UnityEditor.UIElements" xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd">
+
+    <Style src="SelectedSegment.uss"/>
+
+    <en:ScrollView class="container">
+
+        <en:VisualElement name="section-settings" class="section">
+
+        </en:VisualElement>
+
+        <en:VisualElement name="section-modules" class="section">
+
+        </en:VisualElement>
+
+        <en:VisualElement name="section-patterns" class="section">
+
+        </en:VisualElement>
+
+    </en:ScrollView>
+
+</en:UXML>

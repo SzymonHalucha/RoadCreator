@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<en:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:en="UnityEngine.UIElements"
+    xmlns:ed="UnityEditor.UIElements" xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd">
+
+    <Style src="SelectedRoad.uss"/>
+
+    <en:VisualElement class="container">
+    
+    </en:VisualElement>
+
+</en:UXML>

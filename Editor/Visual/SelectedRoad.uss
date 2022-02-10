@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    --color-border: #242424;
+    --color-border-light: #303030;
+    --color-header: #3c3c3c;
+    --color-hover: #454545;
+
+    --size-xxs: 2px;
+    --size-xs: 4px;
+    --size-s: 8px;
+    --size-m: 16px;
+    --size-l: 24px;
+    --size-xl: 32px;
+    --size-xxl: 48px;
+    --size-xxxl: 64px;
+}
+
+.container {
+    min-height: 100%;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+    -unity-text-align: middle-left;
+}
+
+.title {
+    font-size: var(--size-m);
+    background-color: var(--color-header);
+    -unity-text-align: middle-center;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--color-border-light);
+    margin-bottom: var(--size-xs);
+    padding: var(--size-xs);
+}
+
+.window-item {
+    margin: var(--size-xxs) var(--size-xs);
+}
+
+.unity-base-popup-field__text,
+#unity-text-input,
+#unity-input-RoadSegment ObjectFieldDisplay {
+    padding: var(--size-xxs) var(--size-xs);
+}
+
+Button {
+    padding: 1px 0;
+}
